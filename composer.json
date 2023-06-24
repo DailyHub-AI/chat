@@ -1,0 +1,28 @@
+{
+    "name": "dailyhub/chat",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Asapo\\DailyHub\\Chat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Johannes Wachter",
+            "email": "johannes@sulu.io"
+        }
+    ],
+    "require": {
+        "symfony/mercure-bundle": "^0.3.7",
+        "symfony/twig-bundle": "^6.3",
+        "symfony/messenger": "^6.3",
+        "symfony/uid": "^6.3",
+        "openai-php/client": "^0.6.2",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

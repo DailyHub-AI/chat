@@ -1,1 +1,1 @@
-# chat
+# DailyHub Chat
